@@ -1,5 +1,6 @@
 {
-    "recommendations": [
+    "recommendations": ["liveshare.guestApprovalRequired" true
+    
         "ms-vsliveshare.vsliveshare"
     ]
 }

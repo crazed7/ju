@@ -2,6 +2,29 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"name": "Launch test function",
+			"type": "go",
+			"request": "launch",
+			"mode": "test",
+			"program": "${workspaceFolder}",
+			"args": [
+				"-test.run",
+				"MyTestFunction"
+			]
+		},
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "%tds.package.totvs_language_debug%",
+			"program": "${command:AskForProgramName}",
+			"programArguments": [
+				"${command:AskForProgramArguments}"
+			],
+			"smartclientBin": "C:/totvs/bin/smartclient/smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true
+		},
+		{
 			"name": ".NET Core Attach",
 			"type": "coreclr",
 			"request": "attach",
