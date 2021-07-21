@@ -1,0 +1,6 @@
+{
+    "totvsLanguageServer.welcomePage": false,
+    "files.watcherExclude": {
+        "**/target": true
+    }
+}
